@@ -2,4 +2,4 @@
 # Zuerst muss aber eine Vorabprüfung (Validierung) der Messergebnisse stattfinden.
 # Wenn die Leistung > 1.0W ist, 
 # soll eine Fehlermeldung angezeigt werden und die Funktion soll abbrechen (return).
-# Ansonsten soll die Liste zurückgegeben werden .
+# Ansonsten soll die Liste zurückgegeben werden.
