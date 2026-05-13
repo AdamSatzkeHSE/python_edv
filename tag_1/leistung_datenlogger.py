@@ -18,6 +18,15 @@ for i in range(4):
     result.append(power)
     print(power) 
 
+# for i in [0, 1, 2, 3]:
+#     # befehle
+# 1.Schleife -> power = voltages[0] * currents[0]
+# 2.Schleife -> power = voltages[1] * currents[1]
+# ...
+#
+
+print(range(10))
+
 # Liste wird neugesetzt 
 result = []
 # Was, wenn ich nicht die Dimension meiner Liste kenne? 
