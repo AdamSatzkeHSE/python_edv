@@ -15,9 +15,27 @@ for i in range(len(voltages)):
 # Als Rueckhabewerte soll eine Liste mit den Ergebnissen zurueckgeliefert werden.
 
 def filtern_nach_x(leistungen, grenze):
-    pass
+    
     # fuer jede Leistung, Bedingung leistung < grenze pruefen,
     # nur dann in neue Liste eintragen.
+    result = []
+    for leistung in leistungen:
+        if leistung < grenze:
+            result.append(leistung)
     
+    # Gib mir die Liste mit den neuen Werten zurueck
+    return result
 
-# Hier Loesung schreiben
+leistungen_2 = [1, 2, 3, 4, 5]
+leistungen_3 = [1, 2, 3, 4, 5, 66, 7, 2, 1, 0.34]
+leistungen_4 = [0.01, 0.5, 0.88, 0.35, 0.21, 0.99]
+
+# Funktionsaufruf
+result_2 = filtern_nach_x(leistungen_2, 3)
+result_3 = filtern_nach_x(leistungen_3, 2)
+result_4 = filtern_nach_x(leistungen_4, 0.5)
+
+# Daten ausgeben
+print(result_2)
+print(result_3)
+print(result_4)
