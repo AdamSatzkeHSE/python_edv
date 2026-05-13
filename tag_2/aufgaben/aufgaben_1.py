@@ -16,12 +16,14 @@ for i in range(len(voltages)):
 
 # Gib die Werte einzeln im Terminal aus
 # Loesung
-
+for element in result:
+    print(element)
 
 # Fuege 5 neue Werte in die Leistungsliste hinzu
 
 
-# Wenn die Leistung den Ergebnissen oberhalb von 1W liegt, muss diese
+
+# Wenn die Leistung in den Ergebnissen oberhalb von 1W liegt, muss diese
 # weggefiltert werden.
 # Gebe das Ergebnis im Terminal aus.
 
